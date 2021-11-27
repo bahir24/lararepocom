@@ -1,0 +1,20 @@
+{
+    "name": "bahir24/commands",
+    "description": "Add artisan command to create repository by \"php artisan make:repository ModelRepository\"",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikhail Bakhirev",
+            "email": "m.bahirev@wemakefab.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bahir24\\Commands\\CommandsServiceProvider"
+            ]
+        }
+    }
+}
