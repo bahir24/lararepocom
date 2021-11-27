@@ -1,0 +1,8 @@
+<?php
+
+namespace {{ namespace }};
+
+final class {{ class }}
+{
+    //public const CONST_NAME = "name";
+}
