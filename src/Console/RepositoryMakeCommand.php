@@ -6,7 +6,7 @@ use Illuminate\Console\GeneratorCommand;
 use InvalidArgumentException;
 use Symfony\Component\Console\Input\InputOption;
 
-class InstallCommands extends GeneratorCommand
+class RepositoryMakeCommand extends GeneratorCommand
 {
     /**
      * The console command name.

@@ -2,7 +2,8 @@
 
 namespace Bahir24\Lararepocom;
 
-use Bahir24\Lararepocom\Console\InstallCommands;
+use Bahir24\Lararepocom\Console\RepositoryMakeCommand;
+use Bahir24\Lararepocom\Console\DtoMakeCommand;
 use Illuminate\Support\ServiceProvider;
 
 class CommandsServiceProvider extends ServiceProvider
@@ -16,7 +17,8 @@ class CommandsServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                InstallCommands::class,
+                RepositoryMakeCommand::class,
+                DtoMakeCommand::class,
             ]);
         }
         $this->app->bind(
