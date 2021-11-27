@@ -15,4 +15,8 @@ class Repository implements RepositoryInterface
     {
         return 0;
     }
+    public function delete()
+    {
+        return 0;
+    }
 }

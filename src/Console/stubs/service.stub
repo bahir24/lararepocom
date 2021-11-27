@@ -1,0 +1,10 @@
+<?php
+
+namespace {{ namespace }};
+
+use Bahir24\Lararepocom\Classes\Repositories\Service;
+
+final class {{ class }} extends Service
+{
+
+}

@@ -21,6 +21,7 @@ class CommandsServiceProvider extends ServiceProvider
                 RepositoryMakeCommand::class,
                 DtoMakeCommand::class,
                 EnumMakeCommand::class,
+                ServiceMakeCommand::class,
             ]);
         }
         $this->app->bind(
