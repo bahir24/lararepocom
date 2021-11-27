@@ -16,5 +16,10 @@
                 "Bahir24\\Lararepocom\\CommandsServiceProvider"
             ]
         }
+    },
+    "autoload": {
+        "psr-4": {
+            "Bahir24\\Lararepocom\\": "src/"
+        }
     }
 }
