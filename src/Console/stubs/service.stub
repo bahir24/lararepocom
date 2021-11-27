@@ -2,7 +2,7 @@
 
 namespace {{ namespace }};
 
-use Bahir24\Lararepocom\Classes\Repositories\Service;
+use Bahir24\Lararepocom\Classes\Services\Service;
 
 final class {{ class }} extends Service
 {
