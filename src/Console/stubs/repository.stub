@@ -3,28 +3,40 @@
 namespace {{ namespace }};
 
 use {{ namespacedModel }};
+use Bahir24\Lararepocom\Classes\Repositories\Repository;
+use Illuminate\Database\Eloquent\Collection;
 
 final class {{ class }} extends Repository
 {
     /**
-     * Handle the {{ model }} "created" event.
+     * Return all models {{ model }}.
      *
-     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
-     * @return void
+     * @return {{ Collection }}
      */
-    public function create(): model
+    public function all(): Collection
     {
-        //
+        return {{ model }}::all();
     }
 
     /**
-     * Handle the {{ model }} "updated" event.
+     * Create model {{ model }}.
      *
-     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
-     * @return void
+     * @param
+     * @return {{ model }}
      */
-    public function update(): model
+    public function create(): {{ model }}
     {
-        //
+        return {{ model }}::first();
+    }
+
+    /**
+     * Update model {{ model }}.
+     *
+     * @param
+     * @return {{ model }}
+     */
+    public function update(): {{ model }}
+    {
+        return {{ model }}::first();
     }
 }

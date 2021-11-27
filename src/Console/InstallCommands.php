@@ -102,8 +102,8 @@ class InstallCommands extends GeneratorCommand
         // dd();
         // return  __DIR__ . '/stubs/repository.stub';
         return $this->option('model')
-            ? $this->resolveStubPath('/stubs/observer.stub')
-            : $this->resolveStubPath('/stubs/observer.plain.stub');
+        ? __DIR__ . '/stubs/repository.stub'
+        : __DIR__ . '/stubs/repository.plain.stub';
 
         // return '../../stubs/repository.stub';
     }

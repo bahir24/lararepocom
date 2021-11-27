@@ -4,13 +4,18 @@
 namespace {{ namespace }};
 
 use Bahir24\Lararepocom\Classes\Repositories;
+use {{ namespacedModel }};
+use Illuminate\Database\Eloquent\Collection;
 
 final class {{ class }} extends Repository
 {
-    public function create(): model
+    public function all(): Collection
     {
     }
-    public function update(): model
+    public function create(): {{ model }}
+    {
+    }
+    public function update(): {{ model }}
     {
     }
 
