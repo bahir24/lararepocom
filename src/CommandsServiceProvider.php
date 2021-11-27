@@ -19,5 +19,9 @@ class CommandsServiceProvider extends ServiceProvider
                 InstallCommands::class,
             ]);
         }
+        $this->app->bind(
+            RepositoryInterface::class,
+            Repository::class
+        );
     }
 }

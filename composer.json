@@ -9,7 +9,7 @@
             "email": "m.bahirev@wemakefab.ru"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [

@@ -4,7 +4,7 @@ namespace {{ namespace }};
 
 use {{ namespacedModel }};
 
-class {{ class }}
+final class {{ class }} extends Repository
 {
     /**
      * Handle the {{ model }} "created" event.
@@ -12,7 +12,7 @@ class {{ class }}
      * @param  \{{ namespacedModel }}  ${{ modelVariable }}
      * @return void
      */
-    public function created({{ model }} ${{ modelVariable }})
+    public function create(): model
     {
         //
     }
@@ -23,40 +23,7 @@ class {{ class }}
      * @param  \{{ namespacedModel }}  ${{ modelVariable }}
      * @return void
      */
-    public function updated({{ model }} ${{ modelVariable }})
-    {
-        //
-    }
-
-    /**
-     * Handle the {{ model }} "deleted" event.
-     *
-     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
-     * @return void
-     */
-    public function deleted({{ model }} ${{ modelVariable }})
-    {
-        //
-    }
-
-    /**
-     * Handle the {{ model }} "restored" event.
-     *
-     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
-     * @return void
-     */
-    public function restored({{ model }} ${{ modelVariable }})
-    {
-        //
-    }
-
-    /**
-     * Handle the {{ model }} "force deleted" event.
-     *
-     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
-     * @return void
-     */
-    public function forceDeleted({{ model }} ${{ modelVariable }})
+    public function update(): model
     {
         //
     }

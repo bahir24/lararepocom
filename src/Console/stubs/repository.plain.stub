@@ -3,8 +3,15 @@
 
 namespace {{ namespace }};
 
+use Bahir24\Lararepocom\Classes\Repositories;
 
-final class {{ class }}
+final class {{ class }} extends Repository
 {
+    public function create(): model
+    {
+    }
+    public function update(): model
+    {
+    }
 
 }
