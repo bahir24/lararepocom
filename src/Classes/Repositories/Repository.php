@@ -3,6 +3,10 @@ namespace Bahir24\Lararepocom\Classes\Repositories;
 
 class Repository implements RepositoryInterface
 {
+    public function all()
+    {
+        return 0;
+    }
     public function create()
     {
         return 0;
