@@ -100,7 +100,7 @@ class InstallCommands extends GeneratorCommand
     {
         //TODO
         // dd();
-        return  base_path('packages/bahir24/commands/src/stubs/repository.stub');
+        return  __DIR__ . '/stubs/repository.stub';
 
         // return '../../stubs/repository.stub';
     }
