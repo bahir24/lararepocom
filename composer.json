@@ -1,5 +1,5 @@
 {
-    "name": "bahir24/commands",
+    "name": "bahir24/lararepocom",
     "description": "Add artisan command to create repository by \"php artisan make:repository ModelRepository\"",
     "type": "library",
     "license": "MIT",
@@ -13,7 +13,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bahir24\\Commands\\CommandsServiceProvider"
+                "Bahir24\\Lararepocom\\CommandsServiceProvider"
             ]
         }
     }

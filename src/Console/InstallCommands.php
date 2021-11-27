@@ -1,6 +1,6 @@
 <?php
 
-namespace Bahir24\Commands\Console;
+namespace Bahir24\Lararepocom\Console;
 
 use Illuminate\Console\GeneratorCommand;
 use InvalidArgumentException;

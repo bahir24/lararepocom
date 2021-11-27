@@ -1,8 +1,8 @@
 <?php
 
-namespace Bahir24\Commands;
+namespace Bahir24\Lararepocom;
 
-use Bahir24\Commands\Console\InstallCommands;
+use Bahir24\Lararepocom\Console\InstallCommands;
 use Illuminate\Support\ServiceProvider;
 
 class CommandsServiceProvider extends ServiceProvider
