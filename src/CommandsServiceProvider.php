@@ -4,6 +4,7 @@ namespace Bahir24\Lararepocom;
 
 use Bahir24\Lararepocom\Console\RepositoryMakeCommand;
 use Bahir24\Lararepocom\Console\DtoMakeCommand;
+use Bahir24\Lararepocom\Console\EnumMakeCommand;
 use Illuminate\Support\ServiceProvider;
 
 class CommandsServiceProvider extends ServiceProvider
