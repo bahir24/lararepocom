@@ -43,6 +43,7 @@ class ValueObjectMakeCommand extends GeneratorCommand
     }
 
     /**
+     *
      * Replace the model for the given stub.
      *
      * @param  string  $stub
